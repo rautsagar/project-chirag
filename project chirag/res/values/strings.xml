@@ -1,0 +1,27 @@
+<resources>
+
+    <string name="app_name">ProjectChirag</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="menu_settings">Settings</string>
+    <string name="title">Project Chirag</string>
+    <string name="title_activity_main">Project Chirag</string>
+    <string name="name">Name</string>
+    <string name="male">Male</string>
+    <string name="female">Female</string>
+    <string name="email">Email</string>
+    <string name="emailAlerts">Email Alerts</string>
+    <string name="address">Address</string>
+    <string name="submit">Submit</string>
+    <string name="chirag_descr">At Project Chirag, we believe that “If it is to be, it is up to me”. Religiously living by this code in our attempt to bring about rural transformation in India, Students in Free Enterprise at H.R. College has undertaken an initiative called Project Chirag – a model that aims at providing every rural household with their right to light. This solution is delivered by providing Solar based home lighting systems to the beneficiaries of this project, those who have had no access to electricity for decades together. Project Chirag is not only conceptualized by the youth but also implemented by them at the grassroot level. A unique feature of this initiative is the involvement of the differently abled as an integral part of the project’s value chain. By enabling one community to empower another, Project Chirag aims at lighting up the ‘dark side’ of India, where light is not just seen as a mere lamp but rather as a vital spark that will put in motion an entire socio-economic transformation in the community. </string>
+    <string name="get_feed">Get YouTube Feed for \'projectchirag\'</string>
+    <string name="title_activity_update">UpdateActivity</string>
+    <string name="image_url">http://www.teknack.in/projectchirag</string>
+    <string name="title_activity_update_list">UpdateListActivity</string>
+    <string name="sdcard_path">/projectchirag/</string>
+    <string name="volunteer_form">Project Chirag Volunteer Form</string>
+    <string name="youtube">Project Chirag Youtube Channel</string>
+    <string name="updates">Project Chirag Updates</string>
+    <string name="gallery">Project Chirag Image Gallery</string>
+   
+
+</resources>

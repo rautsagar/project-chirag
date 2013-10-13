@@ -1,0 +1,61 @@
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.project.chirag"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="10"
+        android:targetSdkVersion="15" />
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+
+    <application
+        android:icon="@drawable/project_chirag"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name=".MainActivity"
+            android:label="@string/title_activity_main" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".InfoActivity"
+            android:label="@string/title_activity_main" >
+        </activity>
+        <activity
+            android:name=".VolunteerForm"
+            android:label="@string/volunteer_form" >
+        </activity>
+        <activity
+            android:name=".DefaultActivity"
+            android:label="@string/title_activity_main" >
+        </activity>
+        <activity
+            android:name="com.project.chirag.youtube.ui.phone.MainActivity"
+            android:label="@string/youtube" >
+        </activity>
+        <activity
+            android:name=".UpdateActivity"
+            android:label="@string/updates" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.project.chirag.MainActivity" />
+        </activity>
+        <activity
+            android:name="com.project.chirag.image.gallery.ImageGallery"
+            android:label="@string/gallery" >
+        </activity>
+        <activity
+            android:name=".UpdateListActivity"
+            android:label="@string/updates" >
+           
+        </activity>
+    </application>
+
+</manifest>

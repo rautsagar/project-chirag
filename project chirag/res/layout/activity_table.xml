@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/main_bg"
+    android:orientation="vertical"
+    android:weightSum="2" >
+
+    <LinearLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:id="@+id/reltop"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="0.9"
+        android:gravity="center_horizontal"
+        android:orientation="vertical"
+        android:paddingBottom="5dp"
+        android:weightSum="2" >
+
+        <LinearLayout
+            android:id="@+id/row1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:orientation="horizontal" >
+
+            <ImageButton
+                android:id="@+id/home_btn_feature1"
+                style="@style/HomeButton"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:adjustViewBounds="true"
+                android:contentDescription="infoimage"
+                android:onClick="onClickFeature"
+                android:scaleType="fitXY"
+                android:src="@drawable/infox" />
+
+            <ImageButton
+                android:id="@+id/home_btn_feature2"
+                style="@style/HomeButton"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:adjustViewBounds="true"
+                android:contentDescription="mapimage"
+                android:onClick="onClickFeature"
+                android:scaleType="fitXY"
+                android:src="@drawable/galleryx" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/row2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:orientation="horizontal" >
+
+            <ImageButton
+                android:id="@+id/home_btn_feature3"
+                style="@style/HomeButton"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:adjustViewBounds="true"
+                android:onClick="onClickFeature"
+                android:scaleType="fitXY"
+                android:src="@drawable/youtubex" />
+
+            <ImageButton
+                android:id="@+id/home_btn_feature4"
+                style="@style/HomeButton"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:adjustViewBounds="true"
+                android:contentDescription="volunteerimage"
+                android:onClick="onClickFeature"
+                android:scaleType="fitXY"
+                android:src="@drawable/volunteerx" />
+        </LinearLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/scrollView1"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="top"
+        android:layout_weight="1.1"
+        android:gravity="bottom" >
+
+        <ScrollView
+            android:id="@+id/scrollView2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical|center_horizontal"
+            android:layout_weight="0"
+            android:overScrollMode="always" >
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center_vertical|center_horizontal"
+                android:orientation="vertical"
+                android:overScrollMode="ifContentScrolls" >
+
+                <Button
+                    android:id="@+id/nav_btn1"
+                    style="@style/HomeButton"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal"
+                    android:drawableTop="@drawable/about_btn"
+                    android:height="60dip"
+                    android:onClick="onClickFeature" />
+
+                <Button
+                    android:id="@+id/nav_btn2"
+                    style="@style/HomeButton"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal"
+                    android:drawableTop="@drawable/about_btn"
+                    android:height="60dip"
+                    android:onClick="onClickFeature" />
+
+                <Button
+                    android:id="@+id/nav_btn3"
+                    style="@style/HomeButton"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal"
+                    android:drawableTop="@drawable/about_btn"
+                    android:height="60dip"
+                    android:onClick="onClickFeature" />
+
+                <Button
+                    android:id="@+id/nav_btn4"
+                    style="@style/HomeButton"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal"
+                    android:drawableTop="@drawable/about_btn"
+                    android:height="60dip"
+                    android:onClick="onClickFeature" />
+            </LinearLayout>
+        </ScrollView>
+    </LinearLayout>
+
+</LinearLayout>
