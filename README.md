@@ -7,7 +7,7 @@ Created a mobile platform for dissemination of information for the  NGO, Project
 This interactive Android app pulls updates from a web server, and dynamically displays information, pictures and videos. It also provided the functionality to provide feedback.(2014)
 
 Developers:
-Sagar Raut
-Sujeet Sinha
+Sagar Raut,
+Sujeet Sinha,
 Alwin Crasto
 
